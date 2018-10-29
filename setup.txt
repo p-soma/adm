@@ -1,0 +1,8 @@
+First, install anaconda. See https://docs.anaconda.com/anaconda/install/windows/
+
+Next, create a new virtual environment for the project. This command will
+install the necessary packages. If you get any errors, try installing the
+package using pip.
+
+    $ conda create --name <env> --file requirements.txt
+
